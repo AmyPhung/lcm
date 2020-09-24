@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\aphung\Downloads\lcm-1.4.0\build\CMakeFiles\bc9ce316163fe1c6caa8acc63bb30c6b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{29E941C7-7016-3FCA-A019-D43D45BC7EBE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+^C:\USERS\APHUNG\DOWNLOADS\LCM-1.4.0\BUILD\CMAKEFILES\87D62E1EB94265F294858B8C6ABC51DE\LCMUTILITIES.CMAKE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/aphung/Downloads/lcm-1.4.0/build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/aphung/Downloads/lcm-1.4.0/lcm-cmake/lcmUtilities.cmake C:/Users/aphung/Downloads/lcm-1.4.0/build/lcmUtilities.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\APHUNG\DOWNLOADS\LCM-1.4.0\BUILD\CMAKEFILES\02CDF91FB1D0B81B61F102FA01504A0C\LCM_USE_FILE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\APHUNG\DOWNLOADS\LCM-1.4.0\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aphung/Downloads/lcm-1.4.0 -BC:/Users/aphung/Downloads/lcm-1.4.0/build --check-stamp-file C:/Users/aphung/Downloads/lcm-1.4.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

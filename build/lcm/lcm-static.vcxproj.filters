@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\eventlog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\lcm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\lcm_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\lcm_memq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\lcm_mpudpm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\lcm_tcpq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\lcm_udpm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\ringbuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\udpm_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\lcmtypes\channel_port_map_update_t.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\lcmtypes\channel_to_port_t.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\windows\WinLCM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\windows\WinPorting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\aphung\Downloads\lcm-1.4.0\lcm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DF07FAEF-17C9-3F95-A9FC-46BE13B830B1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

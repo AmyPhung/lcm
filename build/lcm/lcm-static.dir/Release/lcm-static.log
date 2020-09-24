@@ -1,0 +1,5 @@
+﻿  WinPorting.cpp
+C:\Users\aphung\Downloads\lcm-1.4.0\lcm\windows\WinPorting.cpp(23,21): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\aphung\Downloads\lcm-1.4.0\lcm\windows\WinPorting.cpp(43,33): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\aphung\Downloads\lcm-1.4.0\lcm\windows\WinPorting.cpp(74,33): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  lcm-static.vcxproj -> C:\Users\aphung\Downloads\lcm-1.4.0\build\lcm\Release\lcm-static.lib
