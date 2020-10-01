@@ -1,8 +1,0 @@
-﻿  module.c
-  pyeventlog.c
-  pylcm.c
-C:\Users\aphung\Downloads\lcm-1.4.0\lcm-python\pylcm.c(186,1): warning C4244: 'initializing': conversion from 'Py_ssize_t' to 'int', possible loss of data
-  pylcm_subscription.c
-  Generating Code...
-     Creating library C:/Users/aphung/Downloads/lcm-1.4.0/build/lcm-python/Release/lcm-python.lib and object C:/Users/aphung/Downloads/lcm-1.4.0/build/lcm-python/Release/lcm-python.exp
-  lcm-python.vcxproj -> C:\Users\aphung\Downloads\lcm-1.4.0\build\Lib\site-packages\lcm\Release\_lcm.pyd
